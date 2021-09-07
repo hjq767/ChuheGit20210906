@@ -35,9 +35,9 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好友的shareCode
                    //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '4larfd6ua4eczj4q63bw2dahf5uxes4ueu7zfly@rzeh3ggcudxlrwnim4oexm2cda@suqg5cye47cqn2qlimclguttp7rdbutotqufawy@7ogzngejpveqcdtbrumyzpqxhq',
+  '4larfd6ua4eczj4q63bw2dahf5uxes4ueu7zfly@rzeh3ggcudxlrwnim4oexm2cda@suqg5cye47cqn2qlimclguttp7rdbutotqufawy@7ogzngejpveqcdtbrumyzpqxhq@mlrdw3aw26j3wnx3u2ay7zhjrtyuhv2ebrj4hvi@cbkvtrwbe6izvphtfdr27domle@vlo2kjqumgt3ho63mqq3rhpfoarlb2dub35zblq',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '4larfd6ua4eczj4q63bw2dahf5uxes4ueu7zfly@rzeh3ggcudxlrwnim4oexm2cda@suqg5cye47cqn2qlimclguttp7rdbutotqufawy@7ogzngejpveqcdtbrumyzpqxhq',
+  '4larfd6ua4eczj4q63bw2dahf5uxes4ueu7zfly@rzeh3ggcudxlrwnim4oexm2cda@suqg5cye47cqn2qlimclguttp7rdbutotqufawy@7ogzngejpveqcdtbrumyzpqxhq@mlrdw3aw26j3wnx3u2ay7zhjrtyuhv2ebrj4hvi@cbkvtrwbe6izvphtfdr27domle@vlo2kjqumgt3ho63mqq3rhpfoarlb2dub35zblq',
 ]
 let allMessage = ``;
 let currentRoundId = null;//本期活动id
